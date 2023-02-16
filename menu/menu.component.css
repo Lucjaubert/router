@@ -1,0 +1,43 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  h1 {
+    margin-top: 0;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin: 0 20px;
+  }
+  
+  a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #999;
+  }
+  
+  
+  a:hover {
+    background-color: #005E7C;
+  }
+  
